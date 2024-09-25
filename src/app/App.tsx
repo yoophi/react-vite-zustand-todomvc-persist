@@ -1,5 +1,5 @@
-import { Footer } from "../shared/ui/Footer.tsx";
-import { TodoApp } from "../entities/todo/ui/TodoApp.tsx";
+import { Footer } from "~/shared/ui/Footer";
+import { TodoApp } from "~/entities/todo/ui/TodoApp";
 
 function App() {
   return (

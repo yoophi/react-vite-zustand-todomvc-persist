@@ -1,7 +1,7 @@
-import { TodoHeader } from "./TodoHeader.tsx";
-import { TodoBody } from "./TodoBody.tsx";
-import { TodoFooter } from "./TodoFooter.tsx";
-import { Filter, useTodoStore } from "../api/use-todo-store.ts";
+import { TodoHeader } from "./TodoHeader";
+import { TodoBody } from "./TodoBody";
+import { TodoFooter } from "./TodoFooter";
+import { Filter, useTodoStore } from "../api/use-todo-store";
 
 export function TodoApp() {
   const activeTodosCount = useTodoStore((state) => state.activeTodosCount());

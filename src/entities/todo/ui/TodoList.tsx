@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { useTodoStore } from "../api/use-todo-store.ts";
-import { TodoItem } from "./TodoItem.tsx";
-import { Todo } from "../model/Todo.ts";
+import { useTodoStore } from "../api/use-todo-store";
+import { TodoItem } from "./TodoItem";
+import { Todo } from "../model/Todo";
 
 type TodoListProps = {
   todos: Todo[];

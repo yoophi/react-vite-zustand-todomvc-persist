@@ -1,5 +1,5 @@
-import { useTodoStore } from "../api/use-todo-store.ts";
-import { TodoList } from "./TodoList.tsx";
+import { useTodoStore } from "../api/use-todo-store";
+import { TodoList } from "./TodoList";
 
 export function TodoBody() {
   const {
